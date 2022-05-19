@@ -29,20 +29,20 @@ Pour affiner notre WordCloud, nous avons donc utilisé **la méthode TF-IDF** qu
 
 Nous vous présentons ici trois WordCloud que nous avons obtenues ainsi que l'analyse qui en découle: 
 
-# WordCloud du 16 Mars 2020: 
+#### WordCloud du 16 Mars 2020: 
 
 ![WordCloud16mars](https://user-images.githubusercontent.com/95186190/169292557-5c5c320f-719d-43bc-8ba2-32c7c1748d99.png)
 
 Dans son discours du 16 mars, le Président E. Macron adopte un discours très impératif. Le 16 mars, il annonce, en effet, le premier confinement (sans utiliser le mot). Cela s'observe dans le WordCloud avec l'utilisation des mots "décidé", qui montre un choix fait par le gouvernement, "dès" et "demain" (le confinement était effectif le lendemain), "nécessaire" montrant que c'est la seule issue possible et également que les commerces nécessaires resteront ouverts, et "devons" qui montre le ton qui a changé. C'est bien d'un combat qu'il s'agit et E. Macron l'a bien compris et il accentue la gravité de ces propos, comme on peut le voir avec l'utilisation du mot "guerre" (avec sa fameuse répétition de la phrase "nous sommes en guerre"), qui ressort beaucoup dans ce discours.
 
-# WordCloud du 14 Juin 2020:
+#### WordCloud du 14 Juin 2020:
 
 ![WordCloud14juin](https://user-images.githubusercontent.com/95186190/169292614-0a4a0117-3048-4d51-9c99-d03093971648.png)
 
 Dans le discours du 14 juin 2020 E. Macron insiste sur la priorité, qui est alors la relance de l'économie (il n'y a qu'à voir la taille du vocable économie et de demain dans le WordCloud, quitte à relancer l'épidémie de la Covid. Le problème n'est plus que sanitaire mais aussi social : il faut donner espoir à une population lassée, les mots "reconstruction" et "emploi" montrent que le président veut créer un après-Covid différent, plus "solidaire", et tirer les leçons de la crise. Le président semble être plein d'espoirs quant à la suite des évènements. L'objectif est le retour à une vie normale : on peut le voir avec la présence de "retrouver", "revenir", et de "pleinement" dans le Wordcloud.
 
 
-# WordCloud du 9 Novembre 2021:
+#### WordCloud du 9 Novembre 2021:
 
 ![WordCloud9novembre](https://user-images.githubusercontent.com/95186190/169292650-13017977-8b0a-4a13-9fde-4ea2a58e02cf.png)
 
