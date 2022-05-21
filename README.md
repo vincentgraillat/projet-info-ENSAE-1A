@@ -3,11 +3,11 @@ Projet dans le cadre du cours d'introduction à Python (1A ENSAE)
 
 ### 1.1. Présentation du projet
 
-L’objectif est d’observer l’évolution de la crise du coronavirus à travers **l’analyse des discours du président E. Macron**. Pour que cette analyse soit vraiment la plus précise et la moins biaisée possible, nous avons choisis de sélectionner uniquement les discours sous la forme d'adresse aux Français et qui sont recensés sur le site de l'Elysée. Ces discours ont l'avantage d'avoir le même public visé, la même forme et même le même lieu. Nous avons donc un corpus de 9 discours entre le 12 Mars 2020 et le 9 Novembre 2021. Ces textes devraient donc être particulièrement pertinent pour observer l'évolution de la crise. 
+L’objectif est d’observer l’évolution de la crise du coronavirus à travers **l’analyse des discours du président E. Macron**. Pour que cette analyse soit vraiment la plus précise et la moins biaisée possible, nous avons choisis de sélectionner uniquement les discours sous la forme d'adresse aux Français et qui sont recensés sur le site de l'Elysée. Ces discours ont l'avantage d'avoir le même public visé, la même forme et même le même lieu. Nous avons donc un corpus de 9 discours entre le 12 Mars 2020 et le 9 Novembre 2021. Ces textes nous apparaissent particulièrement pertinent pour observer l'évolution de la crise. 
 
-Pour mener notre analyse il nous faudra extraire les mots clés de ces discours (text clouds). Pour cela, nous allons coder en Python un WordCloud qui permet **d'afficher de façon graphique les mots clés de chaque discours**. 
+Pour mener notre analyse nous avons du extraire les mots clés de ces discours (text clouds). Pour cela, nous avons codé en Python un WordCloud qui permet **d'afficher de façon graphique les mots clés de chaque discours**. 
 
-Avec un WordCloud pour les différents discours d'Emmanuel Macron depuis le début de la crise, nous serons capable de voir **l'évolution de sa stratégie de communication**.
+Avec un WordCloud pour les différents discours d'Emmanuel Macron depuis le début de la crise, nous avons pu  voir **l'évolution de sa stratégie de communication**.
 
 ### 1.2. Méthodologie
 
@@ -54,5 +54,5 @@ Enfin, en novembre 2021, E. Macron tire un bilan de la pandémie de Covid 19 et 
 
 Avec plus de temps, nous aurions aimé :
 - améliorer le nettoyage de façon à pouvoir utiliser notre fonction cleaner_text_4 (qui dans l'idéal devait être plus pertinente que la cleaner_text_3) dans la méthode TF-IDF;
-- optimiser nos algorithmes de façon à pouvoir élargir le corpus, sans que le coût algorithmique ne soit trop lourd, de façon à rendre la deuxième méthode TF-IDF encore plus pertinente ;
+- optimiser nos algorithmes de façon à pouvoir élargir le corpus, sans que le coût algorithmique ne soit trop lourd, de façon à rendre la deuxième méthode TF-IDF encore plus pertinente;
 - soigner la représentation : le principal problème graphique des WordCloud est le choix des couleurs que nous ne maitrisons pas et qui peut invisibiliser certains mots (notamment la couleur violette qui est peu visible). Le langage HTML aurait pu être une façon d'améliorer le rendu visuel. On aurait aussi pu implémenter une couleur en fonction de la connotation négative / positive des mots (approche n-grammes, Sentiment Analysis).
